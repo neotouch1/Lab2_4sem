@@ -1,0 +1,5 @@
+prog
+begin
+  x1
+    x2
+end.

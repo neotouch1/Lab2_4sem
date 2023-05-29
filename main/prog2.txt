@@ -1,0 +1,20 @@
+program Sad;
+const
+  pi : double = 3.1415926;
+var
+  numa1, numa2:integer;
+  res,d :double;
+begin
+  numa1 := 5.5;
+  numa2 := 6;
+  d := 6;
+  if(d mod 2 = 0) then
+  begin
+    res:=(numa1 - numa2 * 5 div 2);
+    writeln('Res ', Res);
+  end
+  else
+  begin
+    writeln('Error 404 ');
+  end
+end.

@@ -1,0 +1,37 @@
+program Sad;
+const
+  pi : double = 3.1415926;
+var
+  numa1, numa2:integer;
+  res,d :double;
+begin
+  numa2 := 6;
+  numa1 := 3;
+  res := 2.5;
+  if(6) then
+    writeln(d);
+  if(numa2 - 2 = 4) then
+  begin
+    if(numa2 = 6) then
+    begin
+      write('Okay!');
+      if(res > 3) then
+      begin
+        writeln('Aaa');
+      end
+      else
+      begin
+        writeln('yes!hohoho');
+      end
+    end
+    else
+      write('not okay!');
+    res:=(numa1 - numa2 * 5 + 2);
+    write('Res', Res); 
+  end
+  else
+  begin
+    writeln('Test writeLn');
+    write('Error 404');
+  end
+end.
